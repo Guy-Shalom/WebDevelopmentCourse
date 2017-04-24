@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.eot');
+    src: url('../fonts/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Rubik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body 
+{
+    direction:rtl;
+}
+#container{
+    margin: 0 auto;
+    width:960px;
+}
+#patich p{
+    text-align:center;
+    font-family:Rubik;
+    font-size:36px;
+    margin-top:10px;
+    color:#4c5a93;
+}
+h1{
+    text-align:center;
+    font-family:Rubik;
+    margin-top:10px;
+    font-size:44px;
+    color:#b53535;
+}
+h2{
+    font-family:Rubik;
+    font-weight:lighter;
+    font-size:90px;
+    position:relative;
+    top:400px;
+    text-align:center;
+    kerning:50px;
+
+}
+h3{
+  font-family:Rubik;
+    font-weight:lighter;
+    font-size:26px;
+   
+    text-align:center;
+    kerning:4px;
+    padding-top:20px;
+}
+#pic {
+    background-image: url('../image/opacity-1.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+    width: 950px;
+    height: 490px;
+}
+#extra ul li{
+    display:inline-block;
+    width:310px;
+   margin-top:20px;
+    font-family:Rubik;
+    font-size:22px;
+    text-align:center;
+}
+
+    
+
+footer a{
+    font-family:Rubik;
+    font-size:24px;
+    text-align:center;
+    position:relative;
+    top:25px;
+    right:350px;
+}
+a:hover{
+    color:#808080;
+}
+a:active{
+    color:#06091e;
+}
+
+#foot{
+    width:956px;
+    height:170px;
+    background-color:#b53535;
+   margin-top:60px;
+   margin-bottom:20px;
+}
+
+#name, #tz, #email, #send, #cell {
+    font-family: Rubik;
+    font-size: 14px;
+    text-align: center;
+    position:relative;
+    top:5px;
+    
+   
+}
+
+label{
+     display:inline-block;
+     width:100px;
+     position:relative;
+     top:15px;
+     right:20PX;   
+   margin-right:70px;
+     
+}
+
