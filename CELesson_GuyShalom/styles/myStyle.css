@@ -1,0 +1,409 @@
+body 
+{
+    direction:rtl;
+}
+
+div{
+    margin:10px 5px;
+    clear:both;
+}
+#recpie li{
+    margin-right:20px;
+}
+
+                                                  /*חלק ב' - CSS */
+
+/*חלק ב' - תרגיל 1 - מזלות*/
+#zodiac {
+    width:150px;
+    height:150px;
+    background-image: url('../images/Zodiac.jpg');
+    background-repeat:no-repeat;
+    background-position-x: -1350px;
+}
+
+
+/*חלק ב' - תרגיל 2 - aside*/
+
+#aside{
+    border:1px solid black;
+    width:400px;
+    padding:10px;
+
+}
+#aside h1{
+    background-color:lightgreen;
+    text-align:center;    
+}
+#aside p {
+    padding:0px 30px;
+}
+
+#aside p:first-letter{
+color:deeppink;
+font-size:20px;
+}
+#decoration {
+    background-image: url('../images/decorative.png');
+    background-size:390px;
+    background-repeat:no-repeat;
+    height:15px;
+    
+      
+}
+
+/*חלק ב' - תרגיל 3 - אינסטגרם*/
+#instegram a {
+    background-image: url('../images/instegram.png');
+    background-repeat:no-repeat;
+    width:100px;
+    height:100px;
+    background-position-x:-100px;
+    display:block;
+}
+
+#instegram a:hover{
+    background-position-x:0px;
+}
+/*חלק ב' - תרגיל 4 - זברה*/
+#zebra {
+    border: 3px solid green;
+    background-color:mediumpurple;
+    width:150px;
+    color:white;
+}
+#zebra ul li:nth-child(odd){
+    font-size:20pt;
+    margin-right:10px;
+    list-style:none;
+}
+#zebra ul li:nth-child(even){
+margin-right:30px;
+list-style:none;
+}
+
+#zebra:hover{
+    border:3px solid mediumpurple;
+    background-color:green;
+}
+#zebra:hover ul li:nth-child(even){
+    font-size:20pt;
+    margin-right:0px;
+    list-style:none;
+}
+#zebra:hover ul li:nth-child(odd){
+    font-size:12pt;
+    margin-right:30px;
+}
+
+
+
+/*חלק ב' - תרגיל 5 - זומבי*/
+
+#zombie {
+    background-image: url('../images/Zombie.png');
+    background-repeat:no-repeat;
+    width:100px;
+    height:156px;
+    background-position-x:-100px;
+}
+#zombie:hover{
+    background-position-x:-200px;
+}
+#zombie:active{
+    background-position-x:0px;
+}
+
+                                                /*חלק ג' - HTML+CSS */
+
+/*חלק ג' - תרגיל 1 - תגים סמנטיים*/
+#semantic{
+    background-image: url('../images/frame.jpg');
+    background-repeat:no-repeat;
+    width: 690px;
+    height: 552px;
+    
+}
+#semantic h1{
+    font-size:35pt;
+    text-align:center;
+}
+#semantic p {
+    font-size:20pt;
+    text-align:justify;
+}
+    #semantic section {
+        width:400px;
+        position:relative;
+        top:185px;
+        right:140px;
+    }
+
+
+
+/*חלק ג' - תרגיל 2 - האתר של דני*/
+
+ #myWebSite{
+     border-radius:25px;
+     border:5px dashed purple;
+     width:550px;
+     padding:7px;
+ }
+ #myWebSite header{
+     text-align: center;
+ }
+  #myWebSite nav h2{
+      margin-right:10px;
+  }
+   #myWebSite nav ul li a{
+       text-decoration:none;
+       margin-right:20px;
+   }
+    #myWebSite nav ul li:first-child {
+        background-image: url('../images/Profile.png');
+        background-size:15px;
+        background-position-x:right;
+        background-repeat:no-repeat;
+        
+
+    }
+    #myWebSite nav ul li:nth-child(2) {
+        margin-right: 150px;
+        background-image: url('../images/Heart.png');
+         background-size:15px;
+        background-position-x:right;
+        background-repeat:no-repeat;
+        
+    }
+    #myWebSite nav ul li:last-child {
+        margin-right: 330px;
+        background-image: url('../images/Academic.png');
+          background-size:15px;
+        background-position-x:right;
+        background-repeat:no-repeat;
+    }
+  
+   #myWebSite footer p{
+       text-align:center;
+       margin-bottom:10px;
+   }
+                                              /*חלק ד' - תפריטי ניווט*/
+
+/*חלק ד' - תרגיל 1 - אתר חדשות*/
+ #mainnave ul{
+    list-style:none;
+}
+ #mainnave ul li{
+    display:inline-block;
+    float:right;
+}
+ #mainnave ul li a{
+    display:block;
+    background-color:darkslategrey;
+    width:100px;
+    padding:10px 5px;
+    color:white;
+    text-decoration:none;
+}
+  #mainnave ul li #home {
+        background-image: url('../images/Home.png');
+        background-repeat:no-repeat;
+        height:15px;
+        background-size:23px;
+        background-position:center;
+    }
+  #nomainmave{
+      clear:both;
+  }
+  #nomainmave ul li{
+      display:inline-block;
+      
+  }
+   #nomainmave ul li a{
+       text-decoration:none;
+       color:deeppink;
+   }
+
+  #nomainmave ul li:after{
+      content:">";
+  }
+  #nomainmave ul li:last-child:after{
+
+      content:"";
+  }
+   
+
+   
+
+/*חלק ד' - תרגיל 2 - hit*/
+#hit{
+    height:300px;
+}
+      #hit nav ul{
+          list-style:none;
+          text-decoration:none;
+      }
+  #hit nav ul li{
+      display:inline-block;
+      float:right;
+      position:relative;
+  }
+
+  #hit nav ul li a{
+       display:block;
+    background-color:darkslategrey;
+    width:120px;
+    padding:10px 5px;
+    color:white;
+    text-decoration:none;
+  }
+.dropdown1{
+    display:none;
+    position:absolute;
+    clear:both;
+}
+#hit nav ul li:hover .dropdown1{
+    display:block;
+    width:100px;
+}
+#dropdown2 {
+    display: none;
+    position: absolute;
+    clear: both;
+    right: 130px;
+    top:0px;
+}
+#hit nav ul li .dropdown1 li:hover #dropdown2{
+    display:block;
+    width:100px;
+}
+
+
+
+
+                                                 /*חלק ה' - טבלאות*/
+
+/*חלק ה' - תרגיל 1 - ערבוב צבעים*/
+ #tableone,tr, th, td{
+    border:1px solid black;
+    border-collapse:collapse;
+    padding:7px;
+   padding-right:20px;
+   margin-right:20px;
+    
+}
+
+   
+   
+#red{
+    background-color:red;
+}
+#yeloow{
+    background-color:yellow;
+}
+#blue{
+    background-color:blue;
+}
+
+
+/*חלק ה' - תרגיל 2 - בישול ירקות*/
+#tabletwo, tr, th, td{
+        border:1px solid black;
+    border-collapse:collapse;
+    padding:7px;
+   padding-right:20px;
+   margin-right:20px;
+}
+#orange{
+    background-color:orange;
+}
+.green{
+    background-color:forestgreen;
+    color:white;
+}
+
+
+/*חלק ה' - תרגיל 3 - ארוחות העשר של דני*/
+#tablelast {
+    border-collapse:separate;
+    width:700px;
+    table-layout:fixed;
+}
+#tablelast th , #tablelast td{
+    border:1px solid black;
+    border-radius:10px;
+    text-align:center;
+}
+#rad{
+    background-color:cornflowerblue;
+}
+.nofirst{
+    height:100px;
+    
+}
+#sandwich {
+    background-image: url('../images/sandwich.png');
+    background-repeat:no-repeat;
+    background-size:80px;
+    background-position:center bottom;
+}
+#veg {
+    background-image: url('../images/vegetable.png');
+    background-repeat:no-repeat;
+    background-size:80px;
+    background-position:center bottom;
+}
+#fruit {
+    background-image: url('../images/fruit.png');
+    background-repeat:no-repeat;
+    background-size:80px;
+    background-position:center bottom;
+}
+#cookie {
+    background-image: url('../images/cookie.png');
+    background-repeat:no-repeat;
+    background-size:80px;
+    background-position:center bottom;
+}
+
+
+                                                     /*חלק ו' - טפסים*/
+
+/*חלק ו'-תרגיל 1 HT5C3 */
+#HT5C3{
+    width:440px;
+    background-color:mediumpurple;
+}
+#fullname{
+    
+    display:block;
+    width:130px;
+     position:relative;
+  
+}
+ #email{
+     
+     display:block;
+         width:130px;
+     position:relative;
+  
+ }
+#gender, #gender2{   
+   position:relative;
+}
+#test{
+    display:block;
+}
+#age{   
+   position:relative;
+   display:block;
+   width:130px;
+}
+#pass{  
+    display:block;
+    position:relative;
+}
+#send{
+    display:block;
+    position:relative;
+}
