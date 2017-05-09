@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'GraublauWebRegular';
+    src: url('../fonts/amaticsc-regular.eot');
+    src: url('../fonts/amataticsc-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AmaticSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    direction: rtl;   
+    background-color:#FFDA8F;  
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+    background-color:#FFCB62;
+}
+ /*תפריט-ניווט ראשי*/
+#main #pirorim {
+    list-style: none;
+}
+
+nav #main{
+    margin-right:90px;
+}
+nav #main li{
+    display:inline-block;
+    float:right;
+}
+nav #main li a{
+    display:block;
+    background-color:#FFAC06;
+    width:175px;
+    padding:10px;
+    text-decoration:none;
+    text-align:center;
+    margin-top:10px;
+    font-size:14pt;
+    font-family:Rubik;
+    color:black;
+}
+nav #main #only{
+     background-color:#864800;
+     color:white;
+}
+nav #main li a:hover{
+    background-color:#B05E00;
+    color:white;
+}
+nav #main li a:active{
+    background-color:#FFAB49;
+    color:black;
+}
+/*תפריט-פירורים*/
+nav #pirorim{
+    margin-right:90px;
+    margin-top:5px;
+    float:right;
+}
+
+nav #pirorim li{
+    display:inline-block;   
+}
+    nav #pirorim li a {
+        text-decoration: none;
+        
+        font-size: 13pt;
+        color:black;
+       font-family:Rubik;
+       font-weight:bold;   
+    }
+nav #pirorim li:after{
+    content:">";
+}
+nav #pirorim li:last-child:after{
+    content:"";
+}
+/*כותרות*/
+h1{
+    text-align:center;
+    margin-top:20px;
+    font-size:52pt;
+    padding-top:10px;
+    font-family:Rubik;
+    font-weight:lighter;
+}
+#firstline{
+     text-align:center;
+    font-size:48pt;
+    font-family:Rubik;
+    font-weight:lighter;
+    margin:80px 0px 0px 60px;
+}
+h2{
+    margin:100px 90px 0px 0px;
+    font-size:17pt;
+   font-family:Rubik;
+}
+h3{
+    font-size:17pt;
+    font-family:Rubik;
+    margin:10px 90px 0px 0px;
+}
+
+/*עמודי-תוכן*/
+#firstPage{
+    text-align:center;
+    font-size:14pt;
+    font-family:Rubik;
+    margin:35px 0px 10px 0px;   
+}
+.text{
+    font-size:14pt;
+    font-family:Rubik;
+    clear:both;
+    margin:5px 90px 0px 0px;
+}
+/*תמונות+וידאו*/
+/*תקשורת-חוזתית*/
+#Thesonofman img {
+    width: 247px;
+    height: 347px;
+    position:relative;
+    top:30px;
+    right:50px;
+    display:block;
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-ms-transition: all 1s linear;
+-o-transition: all 1s linear;
+transition: all 1s linear;
+   }
+    #Thesonofman img:hover {
+      width: 257px;
+    height: 357px;  
+    }
+  #Thesonofmanvideo{
+    position:relative;
+    top:-300px;
+    right:350px;
+    margin-bottom:-210px;
+  }
+  /*תמונות+שיר*/
+  /*ארגון וייצוג ידע*/
+#shimi img {
+    position:relative;
+    top:25px;
+    right:100px;
+    margin-bottom:15px;
+    width: 200px;
+    height: 269px;
+    display:block;
+    -webkit-transition: all 1s ease-out;
+-moz-transition: all 1s ease-out;
+-ms-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+transition: all 1s ease-out;
+}
+    #shimi img:hover {
+        width: 210px;
+        height: 279px;
+    }
+    #song{
+    position:relative;
+    top:-100px;
+    right:350px;
+}
+    /*תמונות+וידאו*/
+    /*גרפיקה-ממוחשבת*/
+ #TheImitationGamevideo{
+      position:relative;
+      right:220px;
+      margin-top:20px;
+      margin-bottom:10px;
+  }
+#Theimitationgamepic img {
+    width: 381px;
+    height: 210px;
+    margin-top: 25px;
+    margin-right: 300px;
+    display: block;
+    -webkit-transition: all 1ms ease;
+    -moz-transition: all 1ms ease;
+    -ms-transition: all 1ms ease;
+    -o-transition: all 1ms ease;
+    transition: all 1ms ease;
+}
+    #Theimitationgamepic img:hover {
+        width: 385px;
+        height: 217px;
+    }
+    /*פייסבוק ואימייל סידור הסמלים*/
+#facebook {
+    background-image: url('../image/fb.png');
+     background-repeat:no-repeat;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 5px;
+}
+    #facebook:hover {
+        background-size:60px;
+        margin-right:5px;
+    }
+ #facebook:active{
+             background-size:65px;
+
+ }
+#gmail {
+    background-image: url('../image/email-icon.png');
+    background-repeat:no-repeat;
+    background-size: 50PX;
+    width:50px;
+    height: 50px;
+    display: inline-block;
+}
+    #gmail:hover {
+        background-size:60px;
+    }
+    #gmail:active{
+       background-size:65px;
+    }
+
+#contact{
+    display:inline-block;
+    position:relative;
+    top:-80px;
+    right:850px;
+      
+}
+/*תפריט תחתון*/
+footer #secondmain{
+    background-color:#864800;
+    width:960px;
+    height:90px;
+    list-style:none;
+}
+nav #secondmain li{
+    display:inline-block;
+    width:180px;  
+    text-align:center;
+    margin-top:20px;
+}
+nav #secondmain li a{
+    text-decoration:none;
+    font-family:Rubik;
+    font-size:14pt;
+    color:#dccad8;
+}
+footer{
+    height:0px;
+}
+
+
+
+
+
