@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'GraublauWebRegular';
-    src: url('../fonts/amaticsc-regular.eot');
-    src: url('../fonts/amataticsc-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/AmaticSC-Regular.ttf') format('truetype');
+    src: url('../fonts/rubik-regular-webfont.eot');
+    src: url('../fonts/rubik-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rubik-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
